@@ -1,31 +1,12 @@
-# 🎓 React College / University Website
+# React + Vite
 
-A modern, responsive college/university website built using **React**. This project is designed to showcase key sections such as the home page, about us, departments, courses, admissions, student life, and contact form.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Perfect for educational institutions looking for a clean and informative online presence.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📌 Features
+## Expanding the ESLint configuration
 
-- 🏫 Home Page with institution overview
-- 🧑‍🏫 About Us section (vision, mission, leadership)
-- 📚 Courses / Departments listing
-- 📝 Admission information and guidelines
-- 🎉 Campus life / Events / Gallery section
-- 📬 Contact form (static or dynamic)
-- 🔄 Navigation bar with smooth routing
-- 🌐 Fully responsive (mobile/tablet/desktop)
-- ⚛️ Built using React Functional Components & Hooks
-
----
-
-## 🚀 Technologies Used
-
-- **Frontend**: React
-- **Styling**: CSS / Bootstrap 
-- **Icons**: React Icons / Font Awesome
-- **Form Handling**: useState
-
----
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
